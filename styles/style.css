@@ -1,6 +1,19 @@
 .right-item{
-    /* background-image:linear-gradient(to top, #53DB3A ,#A9ED9D ,#ffffff, url("../c2-assets/vegetable-offer.png")); */
     background-image: url("../c2-assets/vegetable-offer.png"), linear-gradient( to bottom , #53DB3A,#A9ED9D ,#ffff );
     background-repeat: no-repeat;
     background-position:bottom, left, top ,right;
 }
+/* .wiggle{
+ animation:  wiggle;
+} */
+
+/* @keyframes wiggle{
+0%{
+left: 10%;
+color:green;
+}
+20%{
+    right: 30%;
+}
+
+} */

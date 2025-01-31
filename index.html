@@ -39,7 +39,7 @@
 <!-- header -->
     <header >
         <!-- navbar -->
-<nav class="grid lg:grid-cols-4 grid-cols-3 justify-items-center border items-center pt-2  ">
+<nav class="grid lg:grid-cols-3 grid-cols-3 justify-items-center border items-center pt-2  ">
 <ul>
   <li> <img class="max-sm:hidden" src="/c2-assets/logo-header.png" alt=""></li>
   <li>  <img class="lg:hidden  md:hidden" src="/c2-assets/Image.png" alt=""></li>
@@ -60,15 +60,16 @@
 
 </ul>
 <ul>
-  <i class="ri-menu-line"></i>
+  <i class="ri-menu-line  lg:hidden md:hidden  max-sm:block" ></i>
 </ul>
 </nav>
 <!-- banner container -->
 <section class="mb-16 bg-gradient-to-b from-[#FFFFFF] to-[#EFEBE3]  ">
-<div class="md:container max-w-[1320px] mx-auto">
+<div class="md:container max-w-[1320px] mx-auto  ">
     <div class="mt-6 mb-8">
-        <h1 class="text-[3.5rem] text-center "> Freshness <span> You Can  <br>Count  </span> On, Prices You’ll Love!  </h1>
-        </div>
+         <h1 class="text-[3.5rem] text-center wiggle     animate-bounce "> Freshness <span class="text-textbg "> You Can  <br>Count  </span> On, Prices You’ll Love!  </h1>
+      
+      </div>
         <div class="flex items-center justify-center">
             <div>
                 <img class="w-full lg:h-[838px] bg-cover "  src="/c2-assets/hero-vegetables.png" alt="">
@@ -311,7 +312,7 @@
 </section>
  <!-- rice img -->
 <section class="md:container mx-auto  max-w-7xl mb-24">
-<h2 class="text-2xl mt-4 mb-4">Arrival & Offers  </h2> 
+<h2 class="text-2xl mt-4 mb-4 text-textbg ">Arrival & Offers  </h2> 
 <div class=" lg:flex  gap-10">
   <!-- one -->
   <div class="flex  justify-center items-center flex-1 lg:h-[344px]  bg-[#115414] text-white rounded-lg md:p-20  ">
@@ -339,13 +340,13 @@
 
 <!--  -->
    <!-- footer  -->
-    <footer class=" relative  bg-[#179800] md:h-full  ">
+    <footer class=" bg-[#179800] md:h-full  ">
 
-      <section class="mx-auto   lg:max-w-[1320px]  my-5"> 
+      <section class="mx-auto relative  -top-32   -top-30  lg:bottom-40  lg:max-w-[1320px]  my-5"> 
         <div class=""> 
-          <div class="relative bottom-40   p-10  ">
+          <div class="  p-5  pr-5 ">
             <!-- <div class="hero bg-base-200 "> -->
-              <div class="  lg:flex lg:items-center lg:w-full bg-[#EFEBE3] lg:h-full lg:gap-4 rounded-xl lg:p-20  ">
+              <div class="  lg:flex lg:items-center lg:w-full bg-[#EFEBE3] lg:h-full lg:gap-4 rounded-xl lg:p-10  ">
               
                 <div> <img
                   src="/c2-assets/vegetable-busket.png"
@@ -354,12 +355,13 @@
              
               <!-- </div> -->
               <div class=" lg:space-y-5 text-center">
-                <h1 class="text-5xl font-bold">Get Grocery News!</h1>
-                <p class="lg:py-6">
+                <h1 class="lg:text-5xl sm:text-3xl  font-bold">Get Grocery News!</h1>
+                <p class="lg:py-6  text-center">
                   Exclusive training tips, ticks, product deals and more.
                 </p>
-              <input type="text" placeholder="">  
-               <button class="btn block"> Subscribe </button>
+              <!-- <input type="text" placeholder="">   -->
+              <input type="text" placeholder="Enter email...." class="input input-bordered w-full max-w-xs  " />
+               <button class="btn inline-block text-center text-textbg"> Subscribe </button>
               </div>
       
             </div>
@@ -369,45 +371,44 @@
         </div>
       
       </section>
-
-        <section class=" flex-col   footer text-base-content md:container  mx-auto     ">
-      <nav class="  ">
-        <h6 class="footer-title ">
-          <img src="/c2-assets/logo-footer.png" alt="">
-        </h6>
-      <p class="text-white">  Discover a world of treats, toys, and<br>
-         essentials  handpicked  for your<br>
-          furry  friends</p
-       >
-      </nav>
-      <nav class="text-white    ">
+      <section class="footer   text-base-content md:container  mx-auto  px-5   pb-5">
+        <nav class="">
+          <h6 class="footer-title ">
+            <img src="/c2-assets/logo-footer.png" alt="">
+          </h6>
+        <p class="text-white">  Discover a world of treats, toys, and<br>
+           essentials  handpicked  for your<br>
+            furry  friends</p
+         >
+        </nav>
+        <nav class="text-white ">
+         
+          <a class="link link-hover">Product</a>
+          <a class="link link-hover">Services</a>
+          <a class="link link-hover">Contact us</a>
        
-        <a class="link link-hover">Product</a>
-        <a class="link link-hover">Services</a>
-        <a class="link link-hover">Contact us</a>
-     
-      </nav>
-      <nav class="   text-2xl">
-        <h6 class="footer-title text-white">Follow Us</h6>
-        <div class="grid grid-flow-col gap-4 justify-items-center">
-          <a>
-            <i class="ri-facebook-circle-fill text-white "></i>
-          </a>
-          <a>
-            <i class="ri-instagram-line text-white"></i>
-          </a>
-          <a>
-            <i class="ri-linkedin-box-line text-white "></i>
-          </a>
-          <a>
-            <i class="ri-youtube-line text-white"></i>
-          </a>
-        </div>
-      </nav> 
-
-   
-
+        </nav>
+        <nav class="   text-2xl">
+          <h6 class="footer-title text-white">Follow Us</h6>
+          <div class="grid grid-flow-col gap-4 justify-items-center">
+            <a>
+              <i class="ri-facebook-circle-fill text-white "></i>
+            </a>
+            <a>
+              <i class="ri-instagram-line text-white"></i>
+            </a>
+            <a>
+              <i class="ri-linkedin-box-line text-white "></i>
+            </a>
+            <a>
+              <i class="ri-youtube-line text-white"></i>
+            </a>
+          </div>
+        </nav> 
      </section>
     </footer>
+<!-- 
+   
+
 </body>
 </html>
