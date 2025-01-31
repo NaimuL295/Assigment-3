@@ -1,0 +1,6 @@
+.right-item{
+    /* background-image:linear-gradient(to top, #53DB3A ,#A9ED9D ,#ffffff, url("../c2-assets/vegetable-offer.png")); */
+    background-image: url("../c2-assets/vegetable-offer.png"), linear-gradient( to bottom , #53DB3A,#A9ED9D ,#ffff );
+    background-repeat: no-repeat;
+    background-position:bottom, left, top ,right;
+}

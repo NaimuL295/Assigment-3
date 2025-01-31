@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en"  data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- remix icon -->
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <!-- daisyUI codn -->
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+<!-- tailwindcss cdn -->
+<script src="https://cdn.tailwindcss.com"></script>
+<!-- link css -->
+<link rel="stylesheet" href="styles/style.css">
+<style>
+   .right-item{
+     background:linear-gradient(to top bottom, #53DB3A ,#A9ED9D ,#ffffff ,url("../c2-assets/vegetable-offer.png")); 
+  
+} 
+</style>
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+            'textbg':'rgba(23, 152, 0, 1)',
+            
+          },
+        },
+      },
+    }
+  </script>
+</head>
+<body>
+<!-- header -->
+    <header >
+        <!-- navbar -->
+<nav class="grid lg:grid-cols-4 grid-cols-3 justify-items-center border items-center pt-2  ">
+<ul>
+  <li> <img class="max-sm:hidden" src="/c2-assets/logo-header.png" alt=""></li>
+  <li>  <img class="lg:hidden  md:hidden" src="/c2-assets/Image.png" alt=""></li>
+</ul>
+<ul>
+  <div class="navbar-center  max-sm:hidden ">
+    <a class="mr-5  text-xl">Product </a>
+    <a class="mr-5  text-xl"> Services</a>
+    <a class="mr-5  text-xl"> Contact us</a>
+  </div>
+</ul>
+<ul class="max-sm:hidden   max-md:hidden ">
+  <li class="btn bg-transparent rounded-none border-none  md:p-2"><i class="ri-shopping-cart-2-line"></i>   </li>
+  <li class="btn btn bg-transparent rounded-none   border-none md:p-2 "><i class="ri-search-2-line"></i></li>
+  <button class="ml-2 btn"> Login</button>
+  <button class="btn ml-2  max-sm:hidden"> Register</button>
+
+
+</ul>
+<ul>
+  <i class="ri-menu-line"></i>
+</ul>
+</nav>
+<!-- banner container -->
+<section class="mb-16 bg-gradient-to-b from-[#FFFFFF] to-[#EFEBE3]  ">
+<div class="md:container max-w-[1320px] mx-auto">
+    <div class="mt-6 mb-8">
+        <h1 class="text-[3.5rem] text-center "> Freshness <span> You Can  <br>Count  </span> On, Prices You’ll Love!  </h1>
+        </div>
+        <div class="flex items-center justify-center">
+            <div>
+                <img class="w-full lg:h-[838px] bg-cover "  src="/c2-assets/hero-vegetables.png" alt="">
+            </div>
+        </div> 
+</div>
+</section>
+    </header>
+    <!-- main -->
+    <main class="md:container  max-w-[1320px]  mx-auto ">
+<section class="lg:mt-24 lg:mb-24 ">
+  <div class="mb-4">
+<h2 class="text-4xl font-semibold text-textbg ">Services </h2>
+  </div>
+<!-- itme-card -->
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-8 md:gap-8 mx-auto p-8 justify-items-center  lg:h-3/5">
+ 
+        <div class=" bg-[#EFEBE3]  rounded-xl  px-8 py-4 lg:py-4">
+            <div class="  ">
+                <div class="flex items-center justify-center">
+                    <div class="  mb-3 rounded-full  bg-white p-2  ">
+                    <img src="/c2-assets/service.png" alt="">
+                    </div>
+                </div>
+              <h2 class=" text-2xl text-center font-semibold">24/7 Services </h2>
+              <p class="text-xl opacity-[0.7] font-light">If a dog chews shoes whose shoes does he choose?</p>
+            </div>
+          </div> 
+        <div class=" bg-[#EFEBE3]  rounded-xl px-8 py-4">
+            <div class="  ">
+                <div class="flex items-center justify-center">
+                    <div class=" mb-3 rounded-full  bg-white p-2 lg:py-4 ">
+                    <img src="/c2-assets/delivery.png" alt="">
+                    </div>
+                </div>
+              <h2 class=" text-2xl text-center font-semibold ">24/7 Services </h2>
+              <p class="text-xl opacity-[0.7] font-light ">If a dog chews shoes whose shoes does he choose?</p>
+            </div>
+          </div> 
+        <div class=" bg-[#EFEBE3]  rounded-xl   px-8 py-4">
+            <div class=" ">
+                <div class="flex items-center justify-center   ">
+                    <div class=" mb-3 rounded-full  bg-white p-2 lg:py-4">
+                    <img src="/c2-assets/healthy.png" alt="">
+                </div>
+                </div>
+              <h2 class="text-2xl text-center font-semibold ">24/7 Services </h2>
+              <p class="text-xl opacity-[0.7]  font-light  "> If a dog chews shoes whose shoes does he choose? If a dog chews shoes whose shoes does he choose? </p>
+            </div>
+          </div> 
+        </div>
+  </div>
+</section>
+<!-- complex item -->
+    </main>
+<!--  -->
+<section class="bg-[#EFEBE3]  mt-10 mb-10  max-w-[1330px] mx-auto">
+  <div class="text-4xl font-semibold text-textbg "> 
+      <h3>Popular Products </h3>
+  </div>
+
+<div class="lg:flex  gap-1 justify-center  ">
+ <div class="max-sm:p-5">
+  <div class=" lg:w-[424px] right-item lg:h-[402px] py-20  rounded-md p-10
+  ">
+ <div class="space-y-4 pt-10 px-10  ">
+ <h3 class="text-3xl text-white font-[400]"> 30% off </h3>
+ <p class="text-base bg-[rgba(17, 17, 17, 0.7)]"> Discover a world of treats, toys, and <br>
+     essentials handpicked for  </p>
+ <button class="btn text-xl"> Buy Now</button>
+ </div>
+ </div>
+ </div>
+<div class="grid lg:grid-cols-3 lg:grid-rows-3   md:grid-cols-2 md:grid-rows-4 lg:gap-2 grid-cols-2 max-lg:gap-2  gap-10  p-2 lg:justify-items-center justify-items-center
+ ">
+  <!-- item grid -->
+  <div class="flex max-sm:w-full  md:w-full lg:w-[275px] h-full lg:gap-5 p-3 bg-white  rounded-xl">
+    <div >
+    <img class="bg-[#EFEBE3] rounded-md"  src="/c2-assets/image 41.png" alt="">
+    </div>
+    <div>
+      <div class="rating">
+        <input
+          type="radio"
+          name="rating-2"
+          class="mask mask-star-2 bg-orange-300"
+          checked="checked" /> 
+        <p class="text-base font-normal"> 4.5</p>
+      </div>
+      <h2 class="text-xl font-medium ">Onion 1 KG </h2>
+     <!-- rating -->
+     
+       <p class="text-base font-medium"> $39.99</p>
+      </div>
+    </div>
+    <div class="flex max-sm:w-full  md:w-full lg:w-[275px] h-full lg:gap-5 p-3 bg-white  rounded-xl">
+      <div >
+      <img class="bg-[#EFEBE3] rounded-md"  src="/c2-assets/image 41.png" alt="">
+      </div>
+      <div>
+        <div class="rating">
+          <input
+            type="radio"
+            name="rating-2"
+            class="mask mask-star-2 bg-orange-300"
+            checked="checked" /> 
+          <p class="text-base font-normal"> 4.5</p>
+        </div>
+        <h2 class="text-xl font-medium ">Onion 1 KG </h2>
+       <!-- rating -->
+       
+         <p class="text-base font-medium"> $39.99</p>
+        </div>
+      </div>
+  <div class="flex max-sm:w-full  md:w-full lg:w-[275px] h-full lg:gap-5 p-3 bg-white  rounded-xl">
+    <div >
+    <img class="bg-[#EFEBE3] rounded-md"  src="/c2-assets/image 41.png" alt="">
+    </div>
+    <div>
+      <div class="rating">
+        <input
+          type="radio"
+          name="rating-2"
+          class="mask mask-star-2 bg-orange-300"
+          checked="checked" /> 
+        <p class="text-base font-normal"> 4.5</p>
+      </div>
+      <h2 class="text-xl font-medium ">Onion 1 KG </h2>
+     <!-- rating -->
+     
+       <p class="text-base font-medium"> $39.99</p>
+      </div>
+    </div>
+    <div class="flex max-sm:w-full  md:w-full lg:w-[275px] h-full lg:gap-5 p-3 bg-white  rounded-xl">
+      <div >
+      <img class="bg-[#EFEBE3] rounded-md"  src="/c2-assets/image 41.png" alt="">
+      </div>
+      <div>
+        <div class="rating">
+          <input
+            type="radio"
+            name="rating-2"
+            class="mask mask-star-2 bg-orange-300"
+            checked="checked" /> 
+          <p class="text-base font-normal"> 4.5</p>
+        </div>
+        <h2 class="text-xl font-medium ">Onion 1 KG </h2>
+       <!-- rating -->
+       
+         <p class="text-base font-medium"> $39.99</p>
+        </div>
+      </div>
+        <div class="flex max-sm:w-full  md:w-full lg:w-[275px] h-full lg:gap-5 p-3 bg-white  rounded-xl">
+          <div >
+          <img class="bg-[#EFEBE3] rounded-md"  src="/c2-assets/image 41.png" alt="">
+          </div>
+          <div>
+            <div class="rating">
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-300"
+                checked="checked" /> 
+              <p class="text-base font-normal"> 4.5</p>
+            </div>
+            <h2 class="text-xl font-medium ">Onion 1 KG </h2>
+           <!-- rating -->
+           
+             <p class="text-base font-medium"> $39.99</p>
+            </div>
+          </div>
+  <div class="flex max-sm:w-full  md:w-full lg:w-[275px] h-full lg:gap-5 p-3 bg-white  rounded-xl">
+    <div >
+    <img class="bg-[#EFEBE3] rounded-md"  src="/c2-assets/image 41.png" alt="">
+    </div>
+    <div>
+      <div class="rating">
+        <input
+          type="radio"
+          name="rating-2"
+          class="mask mask-star-2 bg-orange-300"
+          checked="checked" /> 
+        <p class="text-base font-normal"> 4.5</p>
+      </div>
+      <h2 class="text-xl font-medium ">Onion 1 KG </h2>
+     <!-- rating -->
+     
+       <p class="text-base font-medium"> $39.99</p>
+      </div>
+    </div>
+    <div class="flex max-sm:w-full  md:w-full lg:w-[275px] h-full lg:gap-5 p-3 bg-white  rounded-xl">
+      <div >
+      <img class="bg-[#EFEBE3] rounded-md"  src="/c2-assets/image 41.png" alt="">
+      </div>
+      <div>
+        <div class="rating">
+          <input
+            type="radio"
+            name="rating-2"
+            class="mask mask-star-2 bg-orange-300"
+            checked="checked" /> 
+          <p class="text-base font-normal"> 4.5</p>
+        </div>
+        <h2 class="text-xl font-medium ">Onion 1 KG </h2>
+       <!-- rating -->
+       
+         <p class="text-base font-medium"> $39.99</p>
+        </div>
+      </div>
+<div class="flex max-sm:w-full  md:w-full lg:w-[275px] h-full lg:gap-5 p-3 bg-white  rounded-xl">
+<div >
+<img class="bg-[#EFEBE3] rounded-md"  src="/c2-assets/image 41.png" alt="">
+</div>
+<div>
+  <div class="rating">
+    <input
+      type="radio"
+      name="rating-2"
+      class="mask mask-star-2 bg-orange-300"
+      checked="checked" /> 
+    <p class="text-base font-normal"> 4.5</p>
+  </div>
+  <h2 class="text-xl font-medium ">Onion 1 KG </h2>
+ <!-- rating -->
+ 
+   <p class="text-base font-medium"> $39.99</p>
+  </div>
+</div>
+<div class="flex  max-sm:hidden gap-5 p-3 bg-white  w-[275px] [h-118px] rounded-xl">
+  <div > 
+  <img class="bg-[#EFEBE3] rounded-md"  src="/c2-assets/image 41.png" alt="">
+  </div>
+  <div><h2 class="text-xl font-medium ">Onion 1 KG </h2>
+      <p class="text-base font-medium"> $39.99</p>
+      <span>4.5</span>  </div>
+  </div>
+  
+</div>
+</div>
+</section>
+ <!-- rice img -->
+<section class="md:container mx-auto  max-w-7xl mb-24">
+<h2 class="text-2xl mt-4 mb-4">Arrival & Offers  </h2> 
+<div class=" lg:flex  gap-10">
+  <!-- one -->
+  <div class="flex  justify-center items-center flex-1 lg:h-[344px]  bg-[#115414] text-white rounded-lg md:p-20  ">
+    <div class="">
+      <img src="/c2-assets/dawat-logo.png" alt="">
+  <button class="btn">  Cook Exotic Dishes </button>
+  <h3> UP to 20% OFF </h3>
+</div>
+<div>  <img class="w-60 h-60"src="/c2-assets/dawat-mock-up.png" alt=""> </div>
+  </div>
+  <!-- two -->
+  <div class="flex justify-center items-center text-primary-content lg:h-[344px]  bg-[#102861] text-white rounded-lg  md:p-20 mb-24  ">
+
+<div> 
+   <img class="w-60 h-60"  src="/c2-assets/india-gate-mock-up.png" alt="">
+ </div>
+<div>
+  <img src="/c2-assets/india-gate-logo.png"alt="">
+  <button class="btn">  Cook Exotic Dishes </button>
+  <h3> UP to 20% OFF </h3>
+</div>
+</div>
+</div>
+</section>
+
+<!--  -->
+   <!-- footer  -->
+    <footer class=" relative  bg-[#179800] md:h-full  ">
+
+      <section class="mx-auto   lg:max-w-[1320px]  my-5"> 
+        <div class=""> 
+          <div class="relative bottom-40   p-10  ">
+            <!-- <div class="hero bg-base-200 "> -->
+              <div class="  lg:flex lg:items-center lg:w-full bg-[#EFEBE3] lg:h-full lg:gap-4 rounded-xl lg:p-20  ">
+              
+                <div> <img
+                  src="/c2-assets/vegetable-busket.png"
+                  class=" rounded-lg " /> 
+                </div>
+             
+              <!-- </div> -->
+              <div class=" lg:space-y-5 text-center">
+                <h1 class="text-5xl font-bold">Get Grocery News!</h1>
+                <p class="lg:py-6">
+                  Exclusive training tips, ticks, product deals and more.
+                </p>
+              <input type="text" placeholder="">  
+               <button class="btn block"> Subscribe </button>
+              </div>
+      
+            </div>
+           </div>
+      
+      
+        </div>
+      
+      </section>
+
+        <section class=" flex-col   footer text-base-content md:container  mx-auto     ">
+      <nav class="  ">
+        <h6 class="footer-title ">
+          <img src="/c2-assets/logo-footer.png" alt="">
+        </h6>
+      <p class="text-white">  Discover a world of treats, toys, and<br>
+         essentials  handpicked  for your<br>
+          furry  friends</p
+       >
+      </nav>
+      <nav class="text-white    ">
+       
+        <a class="link link-hover">Product</a>
+        <a class="link link-hover">Services</a>
+        <a class="link link-hover">Contact us</a>
+     
+      </nav>
+      <nav class="   text-2xl">
+        <h6 class="footer-title text-white">Follow Us</h6>
+        <div class="grid grid-flow-col gap-4 justify-items-center">
+          <a>
+            <i class="ri-facebook-circle-fill text-white "></i>
+          </a>
+          <a>
+            <i class="ri-instagram-line text-white"></i>
+          </a>
+          <a>
+            <i class="ri-linkedin-box-line text-white "></i>
+          </a>
+          <a>
+            <i class="ri-youtube-line text-white"></i>
+          </a>
+        </div>
+      </nav> 
+
+   
+
+     </section>
+    </footer>
+</body>
+</html>
